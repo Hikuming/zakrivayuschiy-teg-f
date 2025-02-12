@@ -201,6 +201,7 @@
 
 .like-icon {
   display: block;
+  margin: auto;
 }
 
 .button__text {
@@ -249,7 +250,6 @@
   margin: 0;
   outline: none;
   transition: border-color 0.3s ease;
-  border: 2px solid transparent;
   max-block-size: 38px;
 }
 
@@ -259,10 +259,6 @@
 
 .card__icon-button:focus-visible {
   border-color: var(--accent-color, #000);
-}
-
-.like-icon {
-  margin: auto;
 }
 
 /* svg крутим вертим как хотим */
