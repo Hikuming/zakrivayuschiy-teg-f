@@ -1,7 +1,7 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
 :root {
-  --main-font: "Inter-Variable";
-  --accent-font: "PressStart2P-Regular";
+  --main-font: "Inter-Variable", sans-serif;
+  --accent-font: "PressStart2P", sans-serif;
 
   --accent-color: #000;
   --accent-color-card: #fff;
@@ -13,19 +13,6 @@
 
   --header-padding-inline: clamp(0.875rem, -1.4688rem + 10vw, 7.53125rem);
   --header-padding-block: clamp(7.5rem, 7.3239rem + 0.7512vw, 8rem);
-  --wdth: 400;
-  --wdth: 700;
-}
 
-.text_width_large {
-  --wdth: 400;
-}
-
-.text_weight_bold {
-  --wght: 700;
-}
-
-.text_width_large,
-.text_weight_bold {
-  font-variation-settings: "wdth" var(--wdth), "wght" var(--wght);
+  --wght: 400;
 }

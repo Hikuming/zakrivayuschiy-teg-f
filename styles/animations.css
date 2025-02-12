@@ -9,27 +9,27 @@
 ✦ button__text — для обозначения текстового элемента внутри кнопки
 
 */
-@keyframes moving-btn {
+@keyframes slideInFromLeft {
   from {
-    translate: -100% 0%;
+    transform: translate(-100%, 0%);
   }
 
   to {
-    translate: 0% 0%;
+    transform: translate(0%, 0%);
   }
 }
 
-@keyframes moving-btn-backwards {
+@keyframes slideOutFromRight {
   from {
-    translate: 0% 0%;
+    transform: translate(0%, 0%);
   }
 
   to {
-    translate: -100% 0%;
+    transform: translate(-100%, 0%);
   }
 }
 
-@keyframes scaling-heart {
+@keyframes transformScale {
   from {
     transform: scale(1);
   }
@@ -38,7 +38,7 @@
   }
 }
 
-@keyframes sparks {
+@keyframes appearance {
   to {
     opacity: 1;
   }
